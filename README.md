@@ -1,1 +1,1 @@
-# Data-structure-12
+#include <stdio.h>Int main() {Int job[3] = {1,2,3};Int priority[3] = {3,1,2};Int I,j,temp;For(i=0;i<3;i++){For(j=i+1;j<3;j++){If(priority[i] > priority[j]){Temp = job[i];Job[i] = job[j];Job[j] = temp;}}}Printf(“Printing order:\n”);For(i=0;i<3;i++){Printf(“Job %d\n”,job[i]);}Return 0;}18OUTPUT Printing order:Job 2Job 3Job 1
